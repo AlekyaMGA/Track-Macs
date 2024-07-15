@@ -8,6 +8,7 @@ import {
 } from "react-native";
 import FoodListItem from "@/components/FoodListItem";
 import { useState } from "react";
+import React from "react";
 
 const foodItems = [
   { label: "Pizza", cal: 75, brand: "Dominos" },
@@ -59,4 +60,4 @@ const styles = StyleSheet.create({
   },
 });
 
-// Storm commented. here
+
