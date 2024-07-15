@@ -19,6 +19,7 @@ export default function RootLayout() {
     <ApolloProvider client={client}>
       <Stack>
         <Stack.Screen name="index" />
+        <Stack.Screen name="search" />
       </Stack>
     </ApolloProvider>
   );
