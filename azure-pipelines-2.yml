@@ -1,0 +1,6 @@
+- script: |
+    npm install
+    echo "Expo project - No 'build' script needed"
+    # Run linting instead if you want validation
+    npm run lint
+  displayName: 'npm install for Expo'
